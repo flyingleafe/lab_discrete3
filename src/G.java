@@ -26,18 +26,18 @@ public class G {
 
     public void getObj() {
         int b = 0;
-        for (int i = 0; i < 2 * n; ++i) {
-            BigInteger cd = d(n * 2 - i - 1, b + 1);
-            for(int)
-                if (m.compareTo(cd) < 0) {
-                    a[i] = '(';
-                    b++;
-                } else {
-                    m = m.subtract(cd);
-                    a[i] = ')';
-                    b--;
-                }
-        }
+//        for (int i = 0; i < 2 * n; ++i) {
+//            BigInteger cd = d(n * 2 - i - 1, b + 1);
+//            for(int j=0l)
+//                if (m.compareTo(cd) < 0) {
+//                    a[i] = '(';
+//                    b++;
+//                } else {
+//                    m = m.subtract(cd);
+//                    a[i] = ')';
+//                    b--;
+//                }
+//        }
     }
 
     public void solve() throws IOException {
